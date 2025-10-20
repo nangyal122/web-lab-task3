@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #3f51b5, #5c6bc0);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+  
+  header p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* Intro Section */
+  .intro {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+  }
+  
+  .intro img {
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .intro h2 {
+    margin-top: 20px;
+    color: #3f51b5;
+  }
+  
+  /* Projects Section */
+  .projects {
+    background: #fafafa;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    color: #3f51b5;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    display: inline-block;
+    background: white;
+    border-radius: 8px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card h3 {
+    margin: 10px;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 10px;
+    font-size: 14px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  
+  footer a {
+    color: #ffd54f;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

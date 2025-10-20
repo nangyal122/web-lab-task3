@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7fb;
+    margin: 30px;
+    color: #222;
+    text-align: center;
+}
+
+h1 { margin-bottom: 20px; }
+
+.reg-form {
+    width: 360px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    text-align: left;
+}
+
+.reg-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.reg-form input[type="text"],
+.reg-form input[type="email"],
+.reg-form input[type="password"],
+.reg-form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 14px;
+    border: 1px solid #cfcfe6;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.reg-form input:focus,
+.reg-form select:focus {
+    border-color: #6b8cff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(107,140,255,0.12);
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 6px;
+}
+
+.btn-primary {
+    background: #5165f8;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #cfcfe6;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-primary:hover { transform: translateY(-2px); }
+.btn-secondary:hover { background: #f1f1f8; }
+
+.error {
+    color: #b92727;
+    margin-top: 12px;
+    display: none;
+}
+
+.success {
+    color: #1e8f57;
+    margin-top: 12px;
+    display: none;
+}
+
+/* Example error state styling to show how to style invalid inputs */
+.reg-form input.invalid {
+    border-color: #d9534f;
+    background: #fff6f6;
+}

@@ -1,0 +1,74 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+.intro {
+    color: crimson;
+}
+
+#main-heading {
+    text-transform: uppercase;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+p, h2 {
+    margin: 10px 0;
+}
+
+a[title] {
+    color: green;
+}
+
+a[href^="https://www.google"] {
+    color: orange;
+}
+
+input[type="email"] {
+    border: 2px solid blue;
+}
+
+div > p {
+    color: teal;
+}
+
+div + span {
+    color: purple;
+}
+
+div ul li {
+    list-style-type: square;
+}
+
+div ~ .pseudo {
+    border-top: 2px solid gray;
+}
+
+button:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+a:visited {
+    color: gray;
+}
+
+li:first-child {
+    color: red;
+}
+
+input:checked {
+    outline: 2px solid green;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 24px;
+    color: darkred;
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.px {
+    font-size: 20px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 1.5rem;
+}
+
+.vw {
+    font-size: 3vw;
+}
+
+.decor {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px gray;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}

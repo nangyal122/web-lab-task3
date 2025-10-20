@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fbfbfd;
+    color: #222;
+    text-align: center;
+    margin: 30px;
+}
+
+.gallery {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 160px;
+    height: 110px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #e6e6ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: transform 0.45s ease, box-shadow 0.45s ease;
+}
+
+.rotate:hover { transform: rotate(12deg); }
+.scale:hover { transform: scale(1.12); }
+.translate:hover { transform: translateY(-12px) translateX(8px); }
+.combined:hover { transform: rotate(-6deg) scale(1.06) translateY(-8px); }
+
+.perspective {
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+.perspective:hover {
+    transform: rotateY(20deg) rotateX(8deg) translateZ(10px);
+}
